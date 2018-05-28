@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* 导航 */
+
+.box {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.navigation {
+    width: 1145px;
+    height: 42px;
+    border-radius: 5px;
+    margin: 0 auto;
+    text-align: center;
+    color: white !important;
+    background: rgba(0, 0, 0, .5)
+}
+
+.navigation ul li {
+    float: left;
+    width: 100px;
+    height: 30px;
+    line-height: 28px;
+    border-right: 1px dashed white;
+    margin-top: 6px;
+    margin-left: 4px;
+    cursor: pointer;
+}
+
+.navigation ul li:nth-child(11) {
+    border-right: none;
+}
+
+.navigation ul li .choose {
+    display: inline-block;
+    color: white !important;
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+.navigation {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    margin-left: -580px;
+    z-index: 2;
+}
+
+
+/* 地图 */
+
+#refreshContainer {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+#container {
+    width: 100%;
+    height: 100%;
+}
+
+.amap-scale-line div {
+    display: none !important;
+}
+
+
+/*去除logo*/
+
+.amap-logo {
+    display: none;
+}
+
+.amap-copyright {
+    display: none!important;
+}
+
+
+/* 弹框 */
+
+.amap-info-content {
+    background-position: center center;
+    background-repeat: no-repeat;
+    /* background-image: url(../images/map/air.png); */
+    text-align: center;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 0px 0px;
+    box-shadow: none;
+}
+
+.amap-info-close {
+    display: none;
+    position: absolute;
+    right: 5px!important;
+    top: 8px;
+    color: #C3C3C3;
+    text-decoration: none;
+    font: 700 16px/14px Tahoma, Verdana, sans-serif;
+    width: 14px;
+    height: 14px
+}
+
+.amap-icon img {
+    width: 20px;
+}
+
+.fl_box {
+    /*	position: absolute;
+	top: 50%;
+	left: 50%;*/
+    width: 280px;
+    height: auto;
+    padding-bottom: 3px;
+    background: #4d4c4b;
+    text-align: center;
+}
+
+.fl_box h1 {
+    font-size: 18px;
+    color: #03b2e0;
+    text-align: center;
+    padding-top: 14px;
+}
+
+.fl_img img {
+    width: 265px;
+    /* height: 210px; */
+    display: inline-block;
+    margin-top: 7px;
+}
+
+.fl_ul ul {
+    width: 250px;
+    height: auto;
+    margin-left: 15px;
+    color: #c5c4c4;
+}
+
+.fl_ul ul li {
+    width: 250px;
+    height: 22px;
+    text-align: left;
+    border-bottom: 1px solid #91908f;
+    font-size: 15px;
+    margin: 3px 0;
+}
+
+.fl_ul ul li span {
+    display: block;
+    float: right;
+    font-size: 13px;
+}
+
+.fl_ul ul li:last-child {
+    margin-bottom: 3px !important;
+    border: none;
+}
+
+.active {
+    color: blue;
+}
+
+.navigation .active .choose {
+    color: blue!important;
+}
+
+
+/*新增*/
+
+.huanjing {
+    display: inline-block;
+}
+
+.content_box {
+    position: relative;
+}
+
+.content_child {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 30px;
+    display: none;
+    background: rgba(0, 0, 0, .5);
+    padding-bottom: 10px;
+}
+
+.content_child>li {
+    border: none!important;
+    color: white;
+}

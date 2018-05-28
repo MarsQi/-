@@ -1,0 +1,139 @@
+.login-app {
+  width: 100%;
+  height: 100%;
+}
+.login-app .login-top {
+  width: 100%;
+  height: 44%;
+  background-color: #730000;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.login-app .login-top h1 {
+  font-size: 40px;
+  color: #fff;
+  padding-top: 5%;
+  text-align: center;
+}
+.login-app .login-bottom {
+  width: 100%;
+  height: 56%;
+  background: url('../../assets/images/data-layout.png');
+  position: relative;
+}
+.login-app .login-bottom p {
+  font-size: 12px;
+  width: 500px;
+  text-align: center;
+  margin-left: -250px;
+  position: absolute;
+  left: 50%;
+  bottom: 10%;
+  color: #a4a5a3;
+}
+.login-app #fs-setting-area {
+  width: 650px;
+  height: 290px;
+  position: absolute;
+  margin-left: -325px;
+  margin-top: -145px;
+  left: 50%;
+  top: 50%;
+  background: url('../../assets/images/login-bg.png') no-repeat;
+  background-size: 100%;
+}
+.login-app #fs-setting-area .fs-left {
+  width: 50%;
+  height: 100%;
+  float: left;
+  position: relative;
+}
+.login-app #fs-setting-area .fs-left img {
+  width: 198px;
+  height: 26px;
+  position: absolute;
+  top: 116px;
+  left: 56px;
+}
+.login-app #fs-setting-area .fs-right {
+  width: 50%;
+  height: 100%;
+  float: left;
+  position: relative;
+}
+.login-app #fs-setting-area .fs-right .fs-content {
+  width: 230px;
+  height: 140px;
+  position: absolute;
+  right: 60px;
+  top: 58px;
+}
+.login-app #fs-setting-area .fs-right .fs-content .item {
+  width: 100%;
+  height: 20px;
+  margin-bottom: 20px;
+}
+.login-app #fs-setting-area .fs-right .fs-content .item .item-name {
+  font-size: 12px;
+  color: #686868;
+  width: 57px;
+  height: 20px;
+  float: left;
+  text-align: right;
+  margin-right: 20px;
+}
+.login-app #fs-setting-area .fs-right .fs-content .item .item-ipt {
+  float: left;
+  width: 150px;
+  height: 20px;
+  line-height: 20px;
+  position: relative;
+}
+.login-app #fs-setting-area .fs-right .fs-content .item .item-ipt input[type=text],
+.login-app #fs-setting-area .fs-right .fs-content .item .item-ipt input[type=password] {
+  width: 150px;
+  height: 18px;
+  float: left;
+  border: 1px solid #ccc;
+  background: #f6f6f6;
+}
+.login-app #fs-setting-area .fs-right .fs-content .item .item-ipt i {
+  font-size: 14px;
+  float: left;
+}
+.login-app #fs-setting-area .fs-right .fs-content .item .item-ipt input[type=checkbox] {
+  width: 15px;
+  height: 15px;
+  margin-bottom: 0;
+  vertical-align: middle;
+  float: left;
+  margin-top: 3px;
+}
+.login-app #fs-setting-area .fs-right .fs-content .item .item-ipt label[for=checkbox] {
+  margin-left: 12px;
+  font-size: 12px;
+  vertical-align: middle;
+  float: left;
+  color: #686868;
+}
+.login-app #fs-setting-area .fs-right .fs-content .item .item-ipt button {
+  width: 153px;
+  height: 22px;
+  font-size: 12px;
+  background: #f33535;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  float: left;
+}
+.login-app #fs-setting-area .fs-right .fs-content .item .item-ipt p {
+  position: absolute;
+  left: 0;
+  top: 20px;
+  color: red;
+  font-size: 12px;
+}
+.login-app #fs-setting-area .fs-right .fs-content .item:last-child {
+  margin-bottom: 0;
+}

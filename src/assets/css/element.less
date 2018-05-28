@@ -1,0 +1,57 @@
+.el-menu--horizontal{
+    border-bottom: none;
+}
+.el-menu--horizontal>.el-menu-item{
+    padding: 0 24px;
+    margin: 6px 0;
+    border-bottom: none;
+}
+.el-menu--horizontal > .el-menu-item{
+    border-right: 1px dashed white;
+    font-weight: 700;
+.el-menu--horizontal>.el-menu-item.is-active,.el-menu--horizontal>.el-submenu.is-active .el-submenu__title{
+    border-bottom: none;
+}
+.el-dropdown-menu__item--divided:before, .el-menu, .el-menu--horizontal>.el-menu-item:not(.is-disabled):focus, .el-menu--horizontal>.el-menu-item:not(.is-disabled):hover, .el-menu--horizontal>.el-submenu .el-submenu__title:hover{
+    background: none;
+    color: #fff;
+}
+.el-submenu__title{
+    padding: 0 24px;
+    margin: 6px 0;
+    font-weight: bolder !important;
+}
+.el-menu--horizontal>.el-menu-item,.el-menu--horizontal>.el-menu-item>i,.el-menu--horizontal>.el-submenu .el-submenu__title,.el-menu--horizontal>.el-submenu .el-submenu__title>i{
+    height:30px;
+    line-height:30px;
+    color: #fff;
+}
+.el-menu--horizontal .el-menu-item:not(.is-disabled):focus, .el-menu--horizontal .el-menu-item:not(.is-disabled):hover{
+    color: #fff;
+}
+.el-menu--horizontal .el-menu .el-menu-item, .el-menu--horizontal .el-menu .el-submenu__title{
+    background: rgba(0, 0,0,0.5);
+    color: #fff;
+}
+.el-menu--popup-bottom-start{
+    margin: 0;
+}
+.el-menu--popup{
+    padding: 0;
+}
+
+.el-menu--horizontal>.el-submenu.is-active .el-submenu__title,.el-menu--horizontal>.el-submenu.is-active .el-submenu__title i[class^="iconfont"],.el-menu--horizontal>.el-menu-item.is-active span,.el-menu--horizontal>.el-menu-item.is-active i[class^="iconfont"],.el-menu--horizontal .el-menu .el-menu-item.is-active, .el-menu--horizontal .el-menu .el-submenu__title.is-active{
+    // color: #409EFF;
+    //修改选中颜色
+    color: #0d79cc;
+}
+.el-menu--horizontal>.el-submenu .el-submenu__title{
+    border-bottom: none;
+    border-right: 1px dashed white;
+}
+nav>.el-menu-demo>li:last-child>.el-submenu__title{
+    border-right: none;
+}
+.el-menu--horizontal>.el-submenu:focus .el-submenu__title, .el-menu--horizontal>.el-submenu:hover .el-submenu__title{
+    color: #fff;
+}
